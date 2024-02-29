@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form_wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dfdbe5;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%23c0bdc5' fill-opacity='0.24'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+#signup_form {
+  background: #fff;
+  border-radius: 8px;
+}
+
+#signup_form header {
+  text-align: center;
+  background: #26ed54;
+  color: #fff;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 10px 0px;
+  font-size: 20px;
+}
+
+form {
+    width: 300px;
+  padding: 10px 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  margin-top: 10px;
+}
+
+.field input {
+  padding: 4px 8px;
+  outline: none;
+  width: 100%;
+}
+
+.button_submit input {
+  outline: none;
+  background: #26ed54;
+  color: #fff;
+  border: 1px solid #26ed54;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.link {
+    margin-left: 40px;
+}
+
+.link a {
+  text-decoration: none;
+  color: #333;
+  float: right;
+  padding-right: 22px;
+  padding-bottom: 8px;
+  margin-right: 40px;
+}
+
+.link a:hover {
+  color: blue;
+}
